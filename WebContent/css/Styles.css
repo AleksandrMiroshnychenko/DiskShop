@@ -1,0 +1,118 @@
+<style>
+html {
+  margin-left: calc(100vw - 100%);
+  margin-right: 0;
+  background-color: #191919;
+}
+
+.topPanel{
+  padding: 5px;
+  margin-top: -8px;
+}
+
+.foot{
+  position: absolute;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+}
+
+
+.container{
+	clear: both;
+	display: block;
+	bottom: 0;
+	position: relative;
+	}
+
+.container form .input {
+	margin: 5% auto 0;
+}
+
+.headers{
+	text-align: center;
+}
+
+.paddingtop{
+	margin-top: 25px;
+}
+
+.paddingtop input{
+	border: 1px solid blue;
+	width: 20px;
+}
+
+textarea{
+	resize: none;
+	border: 1px inset gray;
+}
+
+.input td{
+	text-align: right;
+	padding-top: 15px;
+}
+
+body {
+	color: #3355cc;
+	min-height: 100%;
+}
+
+hr{
+	color: #bbf;
+}
+
+.input button, .butplace button {
+	font-family: serif;
+	font-size: 11pt;
+	background-color: #4a3a8b;
+	color: white;
+	border: 1px outset blue;
+	box-shadow: 1px 1px 3px rgba(100,100,100,0.5);
+	width: 100px;
+}
+
+ .input button:hover, .butplace button:hover {
+	
+	background-color: #800080;
+	border: 1px outset #800080;
+	color: white;
+}
+
+.input button:ACTIVE, .butplace button:ACTIVE {
+	background-color: #800080;
+	border: 1px solid #800080;
+	color: white;
+}
+
+.butplace{
+	padding-top: 12.5px;
+	align: 0 auto;
+}
+
+.topPanel .input input, .topPanel .inputs input {
+	width: 28%;
+	border: 1px solid blue;
+}
+
+.input input, .inputs input {
+	width: 330px;
+	border: 1px solid blue;
+}
+
+.input input:HOVER, .inputs input:HOVER {
+	border: 1px solid #800080; 
+}
+
+.input input:FOCUS, .inputs input:FOCUS {
+	box-shadow: 0 0 5px rgba(150,70,255,0.7);
+}
+
+.butplace input{
+	margin-top: 5px;
+}
+
+
+select{
+	width: 400px;
+}
+</style>

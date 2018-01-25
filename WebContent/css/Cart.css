@@ -1,0 +1,77 @@
+<style>
+.container form .input {
+	margin: 5% auto 0;
+}
+
+#booklook td{
+	padding-top: 10px;
+}
+
+#number{
+	width: 50px;
+}
+
+
+td{
+	width: 250px;
+	height: 25px;
+	color: #4a3a8b;
+}
+
+.pages {
+	margin: 3% auto 0;
+	text-align: center;
+}
+
+.pages form{
+	margin: 1% auto 0;
+}
+
+.pages button{
+	size: 30ex 30ex;
+	background-color: #800080;
+	color: white;
+	margin: 0 4px 0 4px;
+	border: 2px outset #800080;
+}
+
+.pages button:HOVER{
+	background-color: #4a3a8b;
+	border: 2px outset #4a3a8b;
+}
+
+.pages button:ACTIVE{
+	background-color: #4a3a8b;
+	border: 2px inset #4a3a8b;
+}
+
+.title, .form a, .title a{
+	color: #4a3a8b;
+	font: 16pt bold;
+}
+
+#order{
+	border: 1px solid #bbb;
+	width: 720px;
+	border-spacing: 3px;
+}
+
+#table {
+	border: 1px solid #bbb;
+		width: 640px;
+}
+
+#table td, #order td{
+	text-align: right;
+	height: 40px;
+}
+
+#table td:FIRST-CHILD{
+	width: 330px;
+}
+
+.tags{
+	color: #4a3a8b;
+	font-size: 14pt;
+}
+</style>
